@@ -1,0 +1,6 @@
+# requirements.txt for Intelligent Document Q&A with RAG
+streamlit>=1.45.0       # Web application framework
+python-dotenv>=1.0.0    # For loading environment variables
+google-generativeai>=0.8.0  # Google Gemini API
+pypdf2>=3.0.0           # PDF text extraction
+# We might add a vector store library later (e.g., langchain-chroma, faiss-cpu) 
